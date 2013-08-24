@@ -1405,7 +1405,7 @@ STATUS miui_langmenu(char *title_name, char *title_icon) {
   //-- Check Box
   ACONTROLP menu1  = acsdmenu(hWin,0,chkY,chkW,chkH,6);
   //-- Populate Checkbox Items
-  acsdmenu_add(menu1, "简体中文", "欢迎使用MIUI Recovery", "@lang.cn");
+  acsdmenu_add(menu1, "Español", "Bienvenidos a MIUI Recovery", "@lang.cn");
   acsdmenu_add(menu1, "English", "Welcome to MIUI Recovery", "@lang.en");
 
   //-- Dispatch Message
