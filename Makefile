@@ -22,7 +22,7 @@ MIUI_PRODUCTS := $(strip $(MIUI_PRODUCTS))
 
 .PHONY: default
 default: 
-	make recovery -B -j4
+	make recovery -B -j16
 	@echo make default
 
 .PHONY: usage
