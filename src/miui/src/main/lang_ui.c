@@ -5,11 +5,11 @@ static STATUS lang_menu_show(menuUnit *p)
     return_val_if_fail(p != NULL, RET_FAIL);
     miui_font( "0", "ttf/DroidSans.ttf;ttf/DroidSansFallback.ttf;", "12" );
     miui_font( "1", "ttf/DroidSans.ttf;ttf/DroidSansFallback.ttf;", "18" );
-    miui_loadlang("langs/en.lang");
+    miui_loadlang("langs/cn.lang");
 
     /*
     int ret = miui_langmenu(p->title_name,p->icon, 
-            "简体中文", "欢迎到recovery", "@lang",
+            "Español", "Bienvenidos al recovery", "@lang",
             "English", "Welcome to recovery", "@lang", 2);
     */
     int ret = miui_langmenu(p->title_name, p->icon);
